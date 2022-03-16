@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Primary;
+    src: url("../fonts/CollegiateBlackFLF.ttf");
+}
+@font-face {
+    font-family: Secondary;
+    src: url("../fonts/Ohayou\ Christmas.ttf");
+}
+@font-face {
+    font-family: Accent;
+    src: url("../fonts/BodoniFLF-Bold.ttf");
+}
