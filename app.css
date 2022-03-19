@@ -65,13 +65,6 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .nav a {
-    text-align: center;
-    float: none;
-  }
-}
-
 .gallery {
   position: relative;
   display: flex;
@@ -131,14 +124,14 @@ body {
 }
 
 /* Modal Content */
-.modal-content {
+/* .modal-content {
   position: relative;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
   width: 90%;
   max-width: 1200px;
-}
+} */
 
 /* The Close Button */
 .close {
@@ -224,4 +217,15 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 415px) {
+  .nav a {
+    text-align: center;
+    float: none;
+  }
+  .gallery {
+    flex-direction: column;
+    overflow-y: scroll;
+  }
 }
